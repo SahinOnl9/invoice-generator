@@ -1,0 +1,27 @@
+[
+    {
+        "id":"1",
+        "name":"Chicken Chapli Kabab",
+        "price":"200"
+    },
+    {
+        "id":"2",
+        "name":"Murg Malai Kabab",
+        "price":"230"
+    },
+    {
+        "id":"3",
+        "name":"Chicken Reshmi Kabab",
+        "price":"210"
+    },
+    {
+        "id":"4",
+        "name":"Paneer Malai Kabab",
+        "price":"230"
+    },
+    {
+        "id":"5",
+        "name":"Paneer Tikka",
+        "price":"210"
+    }
+]

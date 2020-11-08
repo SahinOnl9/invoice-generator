@@ -1,27 +1,27 @@
 /* Shivving (IE8 is not supported, but at least it won't look as awful)
 /* ========================================================================== */
 
-// (function (document) {
-// 	var
-// 	head = document.head = document.getElementsByTagName('head')[0] || document.documentElement,
-// 	elements = 'article aside audio bdi canvas data datalist details figcaption figure footer header hgroup mark meter nav output picture progress section summary time video x'.split(' '),
-// 	elementsLength = elements.length,
-// 	elementsIndex = 0,
-// 	element;
+(function (document) {
+	var
+	head = document.head = document.getElementsByTagName('head')[0] || document.documentElement,
+	elements = 'article aside audio bdi canvas data datalist details figcaption figure footer header hgroup mark meter nav output picture progress section summary time video x'.split(' '),
+	elementsLength = elements.length,
+	elementsIndex = 0,
+	element;
 
-// 	while (elementsIndex < elementsLength) {
-// 		element = document.createElement(elements[++elementsIndex]);
-// 	}
+	while (elementsIndex < elementsLength) {
+		element = document.createElement(elements[++elementsIndex]);
+	}
 
-// 	element.innerHTML = 'x<style>' +
-// 		'article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block}' +
-// 		'audio[controls],canvas,video{display:inline-block}' +
-// 		'[hidden],audio{display:none}' +
-// 		'mark{background:#FF0;color:#000}' +
-// 	'</style>';
+	element.innerHTML = 'x<style>' +
+		'article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block}' +
+		'audio[controls],canvas,video{display:inline-block}' +
+		'[hidden],audio{display:none}' +
+		'mark{background:#FF0;color:#000}' +
+	'</style>';
 
-// 	return head.insertBefore(element.lastChild, head.firstChild);
-// })(document);
+	return head.insertBefore(element.lastChild, head.firstChild);
+})(document);
 
 /* Prototyping
 /* ========================================================================== */
@@ -112,6 +112,7 @@ function updateNumber(e) {
 function updateInvoice() {
 	var total = 0;
 	var cells, price, total, a, i, discount;
+	
 
 	// update inventory cells
 	// ======================
